@@ -76,6 +76,25 @@
     font-weight: normal;
 }
 
+/* join button */
+.join-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .join-button:hover {
+    background-color: #45a049;
+    color: #fff;
+    transform: scale(1.1);
+  }
 
 /*** Navbar ***/
 .navbar.fixed-top {
@@ -106,7 +125,7 @@
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(../img/bg-header.png) left top no-repeat;
+    /* background: url(../img/bg-header.png) left top no-repeat; */
 }
 
 .typed-cursor {
